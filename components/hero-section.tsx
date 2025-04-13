@@ -70,9 +70,9 @@ export default function HeroSection() {
           <OrbitControls
             enableZoom={false}
             enablePan={false}
-            rotateSpeed={10}
+            rotateSpeed={5}
             autoRotate
-            autoRotateSpeed={10}
+            autoRotateSpeed={5}
             maxPolarAngle={Math.PI / 2}
             minPolarAngle={Math.PI / 3}
           />
