@@ -99,6 +99,27 @@ export default function Home() {
                 <p className="text-sm text-[#D3D3D3]">
                   © {new Date().getFullYear()} Future Tech. All rights reserved.
                 </p>
+                <p className="text-sm text-[#D3D3D3] mt-1">
+                  Created by <span className="text-[#39FF14]">❤️ Divya Shah</span>
+                </p>
+                <div className="flex gap-4 mt-2">
+                  <a
+                    href="https://divya-shah.vercel.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-sm hover:text-[#39FF14] transition-colors"
+                  >
+                    Portfolio
+                  </a>
+                  <a
+                    href="https://github.com/divyashah0510/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-sm hover:text-[#39FF14] transition-colors"
+                  >
+                    GitHub
+                  </a>
+                </div>
               </div>
               <div className="flex gap-8">
                 <Link
